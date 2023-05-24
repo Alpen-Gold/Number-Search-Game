@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- link-css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="bg" id="bg">
+      <div class="bg-shans">
+        <h1 class="display-1 fw-bold text-light">
+          <span id="imkoniyat">10</span> ta imkoniyatingiz bor
+        </h1>
+      </div>
+
+      <div class="text-center my-5">
+        <input
+          type="text"
+          class="w-25 py-3 px-2 my-5 rounded-4 kom-oyla"
+          required
+          placeholder="Kompyuter o’ylagan sonni toping"
+          id="inputNumber"
+        />
+      </div>
+
+      <div class="text-center">
+        <button class="btn btn-primary py-3 px-5 rounded-5 fw-bold" id="toptim">
+          Topdim
+        </button>
+        <!-- <h1 id="random"></h1> -->
+        <h1 id="yordam" class="text-light my-3"></h1>
+      </div>
+    </div>
+
+    <!-- ----------------------- -->
+    <div id="winer">
+      <img src="./img/happy.png" alt="" />
+      <h3 class="m-0 p-0 text-center text-light">
+        Tabriklaymiz. O’yin g’olibi bo’ldingiz!
+      </h3>
+    </div>
+
+    <div id="lost">
+      <img src="./img/sad.png" alt="" />
+      <h3 class="m-0 p-0 text-center text-light">
+        Biz sizni g’olib bo’lishingizni xoh - lagandik. Lekin yutqazdingiz!
+      </h3>
+    </div>
+
+    <audio controls id="audioLost">
+      <source
+        src="./img/mixkit-cartoon-whistle-game-over-606.wav"
+        type="audio/ogg"
+      />
+      <source
+        src="./img/mixkit-cartoon-whistle-game-over-606.wav"
+        type="audio/mpeg"
+      />
+    </audio>
+
+    <audio controls id="audioWiner">
+      <source src="./img/medieval-fanfare-6826.mp3" type="audio/ogg" />
+      <source
+        src="./img/mixkit-cartoon-whistle-game-over-606.wav"
+        type="audio/mpeg"
+      />
+    </audio>
+
+    <!-- ======================================================================== -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
