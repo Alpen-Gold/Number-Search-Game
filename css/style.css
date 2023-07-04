@@ -25,7 +25,20 @@ html {
   padding: 70px 0;
   text-align: center;
 }
-.bg .bg-shans h1 {
+@media screen and (max-width: 450px) {
+  .bg .bg-shans {
+    padding: 30px 0;
+  }
+  .bg .kom-oyla {
+    font-size: 8px !important;
+    padding: 5px 8px !important;
+  }
+  .bg #toptim {
+    font-size: 13px !important;
+    padding: 10px 15px !important;
+  }
+}
+.bg .bg-shans h3 {
   text-shadow: 0px 6px 10px rgba(0, 19, 48, 0.35);
 }
 .bg .kom-oyla {
@@ -72,10 +85,7 @@ html {
 
 #audioLost,
 #audioWiner {
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  left: 1000px;
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

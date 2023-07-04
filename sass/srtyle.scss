@@ -23,7 +23,22 @@ html {
     text-align: center;
   }
 
-  .bg-shans h1 {
+  @media screen and (max-width: 450px) {
+    .bg-shans {
+      padding: 30px 0;
+    }
+
+    .kom-oyla {
+      font-size: 8px !important;
+      padding: 5px 8px !important;
+    }
+    #toptim {
+      font-size: 13px !important;
+      padding: 10px 15px !important;
+    }
+  }
+
+  .bg-shans h3 {
     text-shadow: 0px 6px 10px rgba(0, 19, 48, 0.35);
   }
 
@@ -71,8 +86,5 @@ html {
 }
 #audioLost,
 #audioWiner {
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  left: 1000px;
+  display: none;
 }

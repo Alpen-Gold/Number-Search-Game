@@ -39,15 +39,15 @@ const bosildi = () => {
     audioLost.play();
   }
   if (+kirNumber < haqiqiyRandom) {
-    let yordam = document.querySelector("#yordam");
-    yordam.innerHTML = "Siz kiritgan son kichkina";
+    let help = document.querySelector("#yordam");
+    help.innerHTML = "Набранный вами номер маленкий";
   } else {
-    let yordam = document.querySelector("#yordam");
-    yordam.innerHTML = "Siz kiritgan son katta";
+    let help = document.querySelector("#yordam");
+    help.innerHTML = "Набранный вами номер большой";
   }
   imkoniyat.innerHTML = index;
 };
 
-let toptim = document.getElementById("toptim");
+let great = document.getElementById("toptim");
 
-toptim.addEventListener("click", bosildi);
+great.addEventListener("click", bosildi);
